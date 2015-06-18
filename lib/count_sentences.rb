@@ -2,7 +2,11 @@
 # sentences in the string it is called on
 
 class String
+
   def count_sentences
     # code goes here
+    self.split(/[.?!]+/).length
   end
+
 end
+
